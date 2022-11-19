@@ -1,0 +1,57 @@
+As falhas no computador são geralmente chamadas de bugs.
+
+Os bugs são categorizados entre aqueles que são causados por pensamentos
+confusos e aqueles causados por erros introduzidos durantes a conversão
+de um pensamento em código.
+
+Um bug pode passar despercebido, pois muitas vezes, devido a natureza dinamica
+do javascript e sua coerção implicita de tipos, o programa retornará null ou
+undefined tornando dificil a encontrar a origem do problema.
+
+o processo de encontrar erros, bugs, nos programas é chamado de depuração.
+
+
+
+O modo estrito
+
+O uso do modo estrito deixa linguagem mais severa ao analizar o código.
+Alguns do beneficio de usar o modo estrito são:
+* verificar se a varivél foi declara usando var, let ou const.
+* Não permite o uso de parâmetros de mesmo nome.
+* remove o uso de recursos problemáticos, como o with.
+
+para usar o modo estrito basta digita "user  strict" na parte do código a
+ser utilizado.
+
+
+
+testes
+
+ao envés de esperar um comportamento inesperado, o programador decide testa-lo
+em diferentes situações
+é uma forma de encontrar bugs no código atráves de
+
+a imutabilidade garante uma excelente precisão na hora de testar o código.
+
+DEPURANDO
+
+A linguagem se esforçá para indenficar e relatar a linha em que a falha
+se encontra. mas nem sempre isso será obvio.
+
+É importante ressaltar que alterações aleatórias não é uma maneira inteligente
+de lidar com o problemas, parace mais como alguem batendo com a cabeça na parede
+por não entender um probemas, pode até funcionar mas não pelo ato em si.
+
+por isso é essencial que se tenha um pensamento analitico,
+pensando e teorizando sobre o problema, tentando compreender cada comando.
+
+
+EXCESSÕES
+
+Excessão é um mecanismo das linguagens de programação que tornar possível
+para um código quando se depara com um problema, gerando (ou lançando) um erro.
+
+
+
+
+
